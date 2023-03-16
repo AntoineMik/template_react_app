@@ -22,7 +22,7 @@ export default function CustomizedBadges() {
 
   return (
     <>
-      <IconButton aria-label="cart"
+      <IconButton aria-label="cart" color='google'
         onClick={handleOpen}
       >
         <StyledBadge badgeContent={cartItems.length} color="secondary">
