@@ -7,15 +7,17 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+// This is a template firebase app, please replace with your if your app use authentication or remove.
 const firebaseConfig = {
-    apiKey: "AIzaSyDvoIDqy8aApMfVPmq7rN6TKt7Qp-4UH1M",
-    authDomain: "mavboutique-latest.firebaseapp.com",
-    projectId: "mavboutique-latest",
-    storageBucket: "mavboutique-latest.appspot.com",
-    messagingSenderId: "52607487854",
-    appId: "1:52607487854:web:76bdc28ce8c9adb1cd3b7f",
-    measurementId: "G-EYD5N4PCL6"
-  };
+  apiKey: "AIzaSyB35ed0S0qFchmgVEq0DebjGeqReFsFifk",
+  authDomain: "mavuploads.firebaseapp.com",
+  projectId: "mavuploads",
+  storageBucket: "mavuploads.appspot.com",
+  messagingSenderId: "502647937837",
+  appId: "1:502647937837:web:565fc49163c5fe22e2d1a4",
+  measurementId: "G-2QSHBM4VLZ"
+};
 
 
 // Initialize Firebase

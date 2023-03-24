@@ -8,11 +8,7 @@ const About = () => {
             color: 'primary.dark'
         }}
     >
-        mavboutique was created with innovation in mind. 
-        We love creativity and design. We believe that art can engage, inspire, and connect people across the globe. 
-        We think a good work of art results from creative innovation and collaboration. We are a studio of several passionate artists. 
-        We offer prints of paintings, drawings, photography, and custom artwork, and our list is still growing. 
-        It is a pleasure to connect with you and begin the visual dialogue, and together create a unique piece of art that meets your vision and exceeds your expectation.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ullam sunt magnam, laborum cum corrupti ea recusandae rem suscipit, voluptatum quidem repellendus consectetur aspernatur fuga eveniet a quia quas amet.
     </Typography>
   )
 }
