@@ -30,30 +30,30 @@ const Contact = () => {
                 alignItems: 'center',
             }}
         >
-            <IconButton color='google' size='large'
+            <IconButton color='google' size='medium'
                 sx={{
-                    width:'3rem',
-                    height: '3rem',
+                    width:'2.2rem',
+                    height: '2.2rem',
                 }}
             >
-                <EmailIcon fontSize='large'/>
+                <EmailIcon fontSize='medium'/>
             </IconButton>
-            <IconButton color='google' size='large'
+            <IconButton color='google' size='medium'
                 sx={{
-                    width:'3rem',
-                    height: '3rem',
+                    width:'2.2rem',
+                    height: '2.2rem',
                     m: '.3rem'
                 }}
             >
-                <PermPhoneMsgIcon fontSize='large'/>
+                <PermPhoneMsgIcon fontSize='medium'/>
             </IconButton>
-            <IconButton color='google' size='large'
+            <IconButton color='google' size='medium'
                 sx={{
-                    width:'3rem',
-                    height: '3rem',
+                    width:'2.2rem',
+                    height: '2.2rem',
                 }}
             >
-                <InstagramIcon fontSize='large'/>
+                <InstagramIcon fontSize='medium'/>
             </IconButton>
         </Container>
     </Container>
