@@ -3,9 +3,8 @@ import { NavLink } from "react-router-dom";
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import GlobalSearch from "../search/GlobalSearch";
 import { Container, Grid, Paper, Modal, IconButton } from "@mui/material";
-import { MotionGrid, MotionTab, MotionTabs } from "../../utils/motionMui";
+import { MotionGrid } from "../../utils/motionMui";
 
 function LinkTab(props) {
     return (
@@ -100,16 +99,6 @@ const MobileModal = (props) => {
                         mt:'0rem',
                     }}
                 >
-                    <Container
-                        sx={{
-                            display: 'flex',
-                            width:'100%',
-                            mb:'1rem',
-                            justifyContent: 'center',
-                        }}
-                    >
-                        <GlobalSearch/>
-                    </Container>
                     <Tabs
                         value={0} 
                         onChange={handleChange} 
@@ -125,10 +114,9 @@ const MobileModal = (props) => {
                             width:'100%',
                         }}
                     >
-                        <LinkTab label="Home" to="/" handleClose={props.handleClose} item={item}/>
-                        <LinkTab label="Gallery" to="/gallery" handleClose={props.handleClose} item={item}/>
-                        <LinkTab label="Boutique" to="/boutique" handleClose={props.handleClose} item={item}/>
-                        <LinkTab label="Custom Order" to="/custom" handleClose={props.handleClose} item={item}/>
+                        <LinkTab label="Services" to="/Services" handleClose={props.handleClose} item={item}/>
+                        <LinkTab label="About Us" to="/About" handleClose={props.handleClose} item={item}/>
+                        <LinkTab label="Contact Us" to="/Contact" handleClose={props.handleClose} item={item}/>
                     </Tabs>
                 </Container>
             </Paper>

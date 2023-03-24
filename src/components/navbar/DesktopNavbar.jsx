@@ -47,10 +47,9 @@ const DesktopNavbar = () => {
                     alignItems: 'center'
                 }}
             >
-                <LinkTab label="Home" to="/" />
-                <LinkTab label="Gallery" to="/gallery" />
-                <LinkTab label="Boutique" to="/boutique" />
-                <LinkTab label="Custom Order" to="/custom" />
+                <LinkTab label="Services" to="/Services" />
+                <LinkTab label="About Us" to="/About" />
+                <LinkTab label="Contact Us" to="/Contact" />
             </Tabs>
         </Container>
     )
