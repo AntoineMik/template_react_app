@@ -3,14 +3,12 @@
 
 :root{
     font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
-    --primary:#7cc5fe;
-    --google_blue: #4285F4;
-    --google_red: #de5246;
-    --secondary: #f1c40f;
-    --highlights: #00a651;
+    --primary:#03045E;
+    --secondary: #F9C74F;
+    --highlights: #27A300;
     --text_color: #03045e;
-    --error: #E76F51;
-    --background: #ffffff;
+    --error: #ba1a1a;
+    --background: #fffbff;
     --heading-fontSize: 2rem;
     --small-text-color: #999;
     --heading-text-color: #0a1d37;

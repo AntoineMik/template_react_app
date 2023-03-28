@@ -11,7 +11,8 @@ function LinkTab(props) {
             component={NavLink} 
             to={props.to}
             style={({ isActive }) => ({ 
-                color: isActive ? 'var(--secondary)' : 'var(--google_blue)',
+                color: isActive ? 'var(--highlights)' : 'var(--primary)',
+                ':hover': {color: 'var(--secondary)'}
             })}
         />
     );
@@ -43,7 +44,7 @@ const DesktopNavbar = () => {
                     style: { display: 'none' }
                 }}
                 sx={{
-                    textColor:"google.main",
+                    textColor:"primary.darker",
                     alignItems: 'center'
                 }}
             >

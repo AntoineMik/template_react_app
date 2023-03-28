@@ -11,7 +11,7 @@ const Logo = () => {
       animate={{ opacity: 1, scale: 1, }}
       transition={{ ease: "easeOut", duration: 0.5 }}
       component={NavLink}
-      color='google'
+      color='primary'
       to={"/"}
       sx={{
         border: 'solid 1px',
