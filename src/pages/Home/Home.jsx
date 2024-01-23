@@ -4,7 +4,7 @@ import Hero from './Hero';
 
 const Home = () => {
   return (
-    <Container maxWidth={lg}>
+    <Container maxWidth={"lg"}>
       <Hero />
     </Container>
   )

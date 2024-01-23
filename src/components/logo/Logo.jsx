@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import MavLogo from '../../assets/images/logo.svg';
+import TempLogo from '../../assets/images/logo.svg';
 import { MotionIconButton } from '../../utils/motionMui';
 import { Box } from '@mui/material';
 
@@ -19,10 +19,10 @@ const Logo = () => {
     >
       <Box
         component='img'
-        src={MavLogo}
-        alt="mavcollections logo"
+        src={TempLogo}
+        alt="template logo"
         sx={{
-          width: "35px", 
+          width: "35px",
           height: "35px",
           maxWidth: {md: '25px', xs: '25px', lg: '35px', xl: '35px'},
           maxHeight: {md: '25px', xs: '25px', lg: '35px', xl: '35px'},

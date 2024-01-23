@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <HelmetProvider context={helmetContext}>
-        <ThemeProvider theme={theme} >
+        <ThemeProvider theme={theme}>
           <AnimatePresence mode='wait'>
             <Routers />
           </AnimatePresence>
