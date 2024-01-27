@@ -2,19 +2,25 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import { Container } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 
 function LinkTab(props) {
     return (
-        <Tab
-            label={props.label}
+        <Typography
             component={NavLink} 
             to={props.to}
+            variant='h6'
+            sx={{
+                textDecoration: "none",
+                padding: ".5rem",
+                margin: "1.5rem",
+                fontWeight: 400,
+
+            }}
             style={({ isActive }) => ({ 
-                color: isActive ? 'var(--highlights)' : 'var(--primary)',
-                ':hover': {color: 'var(--secondary)'}
+                color: isActive ? 'var(--secondary)' : 'var(--text_dark)'
             })}
-        />
+        >{props.label}</Typography>
     );
 }
 
@@ -38,19 +44,25 @@ const DesktopNavbar = () => {
             <Tabs
                 value={0} 
                 onChange={handleChange} 
-                indicatorColor="secondary"
+                indicatorColor="none"
+                role="navigation"
                 aria-label="navigation tabs"
                 TabIndicatorProps={{
                     style: { display: 'none' }
                 }}
                 sx={{
-                    textColor:"primary.darker",
-                    alignItems: 'center'
+                    textColor:"var(--text_dark)",
+                    alignItems: 'center',
                 }}
             >
-                <LinkTab label="Services" to="/Services" />
-                <LinkTab label="About Us" to="/About" />
-                <LinkTab label="Contact Us" to="/Contact" />
+                <LinkTab label="Home" to="/" 
+                />
+                <LinkTab label="Services" to="/Services" 
+                />
+                <LinkTab label="Work Gallery" to="/Gallery" 
+                />
+                <LinkTab label="About Us" to="/About" 
+                />
             </Tabs>
         </Container>
     )

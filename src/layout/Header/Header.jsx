@@ -10,7 +10,7 @@ const Header = () => {
         position="sticky"
         sx={{
             color: 'google.main',
-            bgcolor: '#fff',
+            bgcolor: 'var(--background)',
             opacity: 1,
             borderRadius: '',
             fontSize: '.8rem',

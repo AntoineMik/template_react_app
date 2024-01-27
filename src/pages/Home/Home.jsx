@@ -6,6 +6,14 @@ const Home = () => {
   return (
     <Container maxWidth={"lg"}>
       <Hero />
+      <Container>
+      </Container>
+
+      <Container>
+      </Container>
+
+      <Container>
+      </Container>
     </Container>
   )
 }

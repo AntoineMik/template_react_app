@@ -2,19 +2,18 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import TempLogo from '../../assets/images/logo.svg';
 import { MotionIconButton } from '../../utils/motionMui';
-import { Box } from '@mui/material';
+import { Box, Paper } from '@mui/material';
 
 const Logo = () => {
   return (
-    <MotionIconButton 
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 1, }}
-      transition={{ ease: "easeOut", duration: 0.5 }}
+    <Paper 
+      elevation={0}
       component={NavLink}
-      color='primary'
       to={"/"}
       sx={{
-        border: 'solid 1px',
+        display: "flex",
+        paddingLeft: "2rem",
+        bgcolor: "var(--background)",
       }}
     >
       <Box
@@ -22,13 +21,12 @@ const Logo = () => {
         src={TempLogo}
         alt="template logo"
         sx={{
-          width: "35px",
-          height: "35px",
-          maxWidth: {md: '25px', xs: '25px', lg: '35px', xl: '35px'},
-          maxHeight: {md: '25px', xs: '25px', lg: '35px', xl: '35px'},
+          width: "100px",
+          height: "auto",
+          maxWidth: {md: '100px', xs: '100px', lg: '100px', xl: '100px'},
         }}
       />
-    </MotionIconButton>
+    </Paper>
   )
 }
 
